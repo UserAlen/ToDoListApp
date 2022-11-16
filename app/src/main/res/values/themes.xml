@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.ToDoListApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary</item>
+
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+    <style name="toastCoinAdd">
+        <item name="stColorBackground">#4B8BB3</item>
+        <item name="stIconStart">@drawable/coin</item>
+        <item name="stIconEnd">@drawable/coin</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stRadius">@dimen/_5sdp</item>
+        <item name="stStrokeWidth">@dimen/_3sdp</item>
+        <item name="stStrokeColor">#FFFEAF</item>
+    </style>
+    <style name="toastCoinNotAdd">
+        <item name="stColorBackground">#B00020</item>
+        <item name="stIconStart">@drawable/coin</item>
+        <item name="stIconEnd">@drawable/coin</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stRadius">@dimen/_5sdp</item>
+        <item name="stStrokeWidth">@dimen/_3sdp</item>
+        <item name="stStrokeColor">#FFFEAF</item>
+    </style>
+
+    <style name="toastCoinNotAddTop">
+        <item name="stColorBackground">#B00020</item>
+        <item name="stIconStart">@drawable/coin</item>
+        <item name="stIconEnd">@drawable/coin</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stRadius">@dimen/_5sdp</item>
+        <item name="stStrokeWidth">@dimen/_3sdp</item>
+        <item name="stStrokeColor">#FFFEAF</item>
+        <item name="stGravity">top</item>
+    </style>
+
+    <style name="toastError">
+        <item name="stColorBackground">#B00020</item>
+        <item name="stIconStart">@drawable/ic_priority_high</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stRadius">@dimen/_5sdp</item>
+    </style>
+    <style name="toastDelete">
+        <item name="stColorBackground">#B00020</item>
+        <item name="stIconStart">@drawable/ic_delete_white</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stRadius">@dimen/_5sdp</item>
+    </style>
+    <style name="toastLogout">
+        <item name="stColorBackground">#696969</item>
+        <item name="stIconStart">@drawable/ic_logout_white</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stRadius">@dimen/_5sdp</item>
+    </style>
+    <style name="toastSave">
+        <item name="stColorBackground">#4B8BB3</item>
+        <item name="stIconStart">@drawable/ic_edit_white</item>
+        <item name="stTextColor">#FFFFFF</item>
+        <item name="stRadius">@dimen/_5sdp</item>
+    </style>
+</resources>

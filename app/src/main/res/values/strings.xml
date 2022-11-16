@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ToDoListApp</string>
+    <string name="new_user">Новый пользователь?</string>
+    <string name="create_new_account">Создать новый аккаунт</string>
+    <string name="password">Пароль</string>
+    <string name="email">Адрес электронной почты</string>
+    <string name="input_data">Введите свои данные для входа в приложение:</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="confirm_password">Подтвердить пароль</string>
+    <string name="already_signed_up">Уже есть аккаунт?</string>
+    <string name="continue_text">Продолжить</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="sign_in">Войти</string>
+    <string name="creation_of_new_account">Создание нового аккаунта</string>
+    <string name="create_account">Создать</string>
+    <string name="tasks">Задания</string>
+    <string name="achievements">Достижения</string>
+    <string name="profile">Профиль</string>
+    <string name="save">Сохранить</string>
+    <string name="enter_task">Введите задание</string>
+    <string name="task">Задание</string>
+    <string name="logout">Выйти из аккаунта</string>
+    <string name="every_day">Каждый день</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="all">Всего</string>
+    <string name="all_this_time">За все время</string>
+</resources>
